@@ -87,20 +87,11 @@ Tools:
 - Corrected input dimensions and used categorical cross-entropy with `softmax` output.
 
 
-## Requirements
-
-To run the code, install the following dependencies:
-
-```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow spacy
-python -m spacy download en_core_web_sm
-
-
 **Screenshots**
 
-All major outputs and model metrics are captured as screenshots in the final report PDF and referenced in respective notebook markdown cells.
+**All major outputs and model metrics are captured as screenshots in the final report PDF and referenced in respective notebook markdown cells.
 
-Authors 
+**Authors** 
 
 **This project was completed as a group assignment under the PLP Academy AI for Software Engineering course.**
 
@@ -114,5 +105,10 @@ Authors
 
 **3. Simon Mwangi**     mwangisimone007@gmail.com
 
+## Requirements
 
+To run the code, install the following dependencies:
 
+```bash
+pip install numpy pandas matplotlib scikit-learn tensorflow spacy
+python -m spacy download en_core_web_sm
