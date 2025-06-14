@@ -10,7 +10,7 @@ The assignment was done by Group 73 which is comprised of the following members:
 
 **1. Jefther Afuyo**    **Email address:** *afuyojefther@gmail.com*
 
-**2. Liza **Bambu**     **Email address:** *lizabambu544@gmail.com*
+**2. Liza Bambu**     **Email address:** *lizabambu544@gmail.com*
 
 **3. Simon Mwangi**     **Email address:**  *mwangisimone007@gmail.com*
 
@@ -95,11 +95,12 @@ To run the code, install the following dependencies:
 pip install numpy pandas matplotlib scikit-learn tensorflow spacy
 python -m spacy download en_core_web_sm
 
+
 **Screenshots**
 
-**All major outputs and model metrics are captured as screenshots in the final report PDF and referenced in respective notebook markdown cells.**
+All major outputs and model metrics are captured as screenshots in the final report PDF and referenced in respective notebook markdown cells.
 
-**Authors** 
+Authors 
 
 **This project was completed as a group assignment under the PLP Academy AI for Software Engineering course.**
 
