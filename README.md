@@ -89,7 +89,7 @@ Tools:
 
 **Screenshots**
 
-**All major outputs and model metrics are captured as screenshots in the final report PDF and referenced in respective notebook markdown cells.
+**All major outputs and model metrics are captured as screenshots in the final report PDF and referenced in respective notebook markdown cells.**
 
 **Authors** 
 
@@ -101,14 +101,31 @@ Tools:
 
 **1. Jefther Afuyo**    afuyojefther@gmail.com
 
-**2. Liza **Bambu**       lizabambu544@gmail.com
+**2. Liza Bambu**       lizabambu544@gmail.com
 
 **3. Simon Mwangi**     mwangisimone007@gmail.com
 
 ## Requirements
+- To use the Amazon Reviews dataset, download it from the following link: 
+https://www.kaggle.com/datasets/bittlingmayer/amazonreviews
+
+- Extract the `test.ft.txt` from the downloaded dataset.
+
+- Place the extracted file in the same directory as the app.py file.
+
+***
 
 To run the code, install the following dependencies:
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow spacy
-python -m spacy download en_core_web_sm
+To run the Streamlit app, use:
+streamlit run app.py
+```
+
+```bash
+To run the buggy script, use:
+python buggy_tensorflow_script.py
